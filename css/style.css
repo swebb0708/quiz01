@@ -1,0 +1,57 @@
+
+body {
+    background-color: grey;
+}
+
+#box {
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 450px;
+    max-height: 450px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -250px;
+    
+}
+
+#box img {
+    float: left;
+    display:inline-block;
+    max-width: 84px;
+    padding: 83px;
+}
+
+#box .info{
+    position: absolute;
+    display:inline-block;
+    max-width: 250px;
+   
+}
+
+#box .head {
+    text-align: center;
+}
+
+
+
+.price {
+    color: red;
+    filter: drop-shadow(30px 10px 4px grey);
+    
+}
+
+button {
+    background-color:green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
